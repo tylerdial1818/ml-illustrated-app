@@ -1,5 +1,5 @@
-import type { Point2D } from '../../types'
-import { euclideanDistance, squaredDistance } from '../../math/linalg'
+import type { Point2D } from '../../../types'
+import { euclideanDistance } from '../../math/linalg'
 
 export interface MergeStep {
   cluster1: number

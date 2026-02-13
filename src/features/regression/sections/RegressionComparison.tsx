@@ -51,7 +51,7 @@ export function RegressionComparison() {
           The same dataset (8 features, only 4 relevant), four different regression methods.
         </p>
 
-        <GlassCard className="mt-8 p-6">
+        <GlassCard className="mt-8 p-8">
           <p className="text-xs text-text-tertiary uppercase tracking-wider mb-4">Coefficient comparison</p>
 
           {/* Coefficient comparison chart */}
@@ -132,31 +132,31 @@ export function RegressionComparison() {
         </GlassCard>
 
         {/* Selection guide */}
-        <GlassCard className="mt-6 p-6">
+        <GlassCard className="mt-6 p-8">
           <h3 className="text-lg font-semibold text-text-primary mb-4">Which regression method?</h3>
           <div className="space-y-3 text-sm">
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-1 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Just need a baseline?</p>
                 <p className="text-text-secondary">Use OLS. Simple, fast, interpretable.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-2 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Correlated features?</p>
                 <p className="text-text-secondary">Ridge or ElasticNet. They handle multicollinearity gracefully.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-3 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Many features, some irrelevant?</p>
                 <p className="text-text-secondary">Lasso. It'll zero out the noise features automatically.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-4 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Want feature selection + stability?</p>

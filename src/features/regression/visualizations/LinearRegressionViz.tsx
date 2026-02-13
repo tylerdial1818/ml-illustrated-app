@@ -32,7 +32,7 @@ export function LinearRegressionViz() {
   }, [])
 
   return (
-    <GlassCard className="p-6">
+    <GlassCard className="p-8">
       <div className="flex flex-wrap gap-4 mb-6">
         <Slider
           label="Noise"
@@ -68,7 +68,6 @@ export function LinearRegressionViz() {
               {/* Residual squares */}
               {data.map((point, i) => {
                 const predicted = b0 + b1 * point.x
-                const residual = point.y - predicted
                 const side = Math.abs(yScale(point.y) - yScale(predicted))
                 if (side < 2) return null
 

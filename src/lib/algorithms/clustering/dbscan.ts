@@ -1,4 +1,4 @@
-import type { Point2D } from '../../types'
+import type { Point2D } from '../../../types'
 import { euclideanDistance } from '../../math/linalg'
 
 export type PointClassification = 'unvisited' | 'core' | 'border' | 'noise'
@@ -39,7 +39,7 @@ export function runDBSCAN(
   let currentClusterId = -1
 
   // Pre-compute the ε-neighbourhood for every point (avoids redundant work)
-  const neighbourhoods: number[][] = data.map((p, i) => {
+  const neighbourhoods: number[][] = data.map((p, _i) => {
     const neighbours: number[] = []
     for (let j = 0; j < n; j++) {
       if (euclideanDistance(p, data[j]) <= epsilon) {

@@ -29,7 +29,7 @@ export function ElasticNetSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Feature selection + stability</li>
                 <li>Handles correlated features well</li>
                 <li>Flexible via l1_ratio tuning</li>
@@ -38,7 +38,7 @@ export function ElasticNetSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Two hyperparameters to tune</li>
                 <li>Computationally heavier</li>
                 <li>Can be overkill for simple problems</li>

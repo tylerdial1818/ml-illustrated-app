@@ -78,7 +78,7 @@ export function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Hero */}
-      <section className="flex-1 flex flex-col items-center justify-center px-6 py-20 text-center">
+      <section className="flex-1 flex flex-col items-center justify-center py-20 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -102,7 +102,7 @@ export function HomePage() {
       </section>
 
       {/* Category Grid */}
-      <section className="px-6 pb-20 max-w-5xl mx-auto w-full">
+      <section className="pb-20 max-w-4xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {categories.map((cat, i) => {
             const isAvailable = cat.available !== false
@@ -112,7 +112,7 @@ export function HomePage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 + i * 0.1 }}
               >
-                <GlassCard hover={isAvailable} className={`p-6 h-full ${!isAvailable ? 'opacity-50' : ''}`}>
+                <GlassCard hover={isAvailable} className={`p-8 h-full ${!isAvailable ? 'opacity-50' : ''}`}>
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 mt-1">{cat.icon}</div>
                     <div className="flex-1 min-w-0">

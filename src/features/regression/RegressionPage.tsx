@@ -22,11 +22,11 @@ export function RegressionPage() {
     <div className="relative">
       <SectionNav sections={SECTIONS} />
 
-      <div className="max-w-5xl mx-auto px-6">
+      <div>
         {/* Page Header */}
-        <div className="pt-16 pb-8">
-          <h1 className="text-5xl font-bold text-text-primary">Regression</h1>
-          <p className="mt-4 text-xl text-text-secondary max-w-2xl">
+        <div className="pt-12 lg:pt-16 pb-10">
+          <h1 className="text-4xl lg:text-5xl font-bold text-text-primary">Regression</h1>
+          <p className="mt-4 text-lg text-text-secondary max-w-2xl leading-relaxed">
             Drawing the best line through data — predicting continuous outcomes by minimizing
             error with increasing sophistication.
           </p>

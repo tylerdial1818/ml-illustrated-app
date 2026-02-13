@@ -43,7 +43,7 @@ export function LassoViz() {
   const activeFeatures = lasso.activeFeatureCounts[alphaIdx] ?? 0
 
   return (
-    <GlassCard className="p-6">
+    <GlassCard className="p-8">
       <div className="flex flex-wrap gap-6 mb-6 items-end">
         <Slider
           label="α (regularization)"

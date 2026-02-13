@@ -1,4 +1,4 @@
-import type { Point2D } from '../../types'
+import type { Point2D } from '../../../types'
 import {
   identity2x2,
   det2x2,
@@ -79,7 +79,7 @@ export function runGMM(
   // --- EM loop ---
   for (let iter = 1; iter <= maxIter; iter++) {
     // ── E-step ──────────────────────────────────────────────────────
-    const ll = computeLogLikelihoodAndResponsibilities(
+    computeLogLikelihoodAndResponsibilities(
       data, means, covariances, weights, responsibilities
     )
 

@@ -17,7 +17,6 @@ export interface OLSResult {
  * Returns coefficients β = (X^T X)^(-1) X^T y via Gaussian elimination.
  */
 export function solveOLS(X: number[][], y: number[]): OLSResult {
-  const n = X.length
   const p = X[0].length
 
   // X^T

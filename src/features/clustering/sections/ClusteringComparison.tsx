@@ -108,7 +108,7 @@ export function ClusteringComparison() {
           The same dataset, four different algorithms. See how each one handles the data differently.
         </p>
 
-        <GlassCard className="mt-8 p-6">
+        <GlassCard className="mt-8 p-8">
           <div className="flex items-center justify-between mb-6">
             <Select
               label="Dataset"
@@ -128,10 +128,10 @@ export function ClusteringComparison() {
         </GlassCard>
 
         {/* Selection guide */}
-        <GlassCard className="mt-6 p-6">
+        <GlassCard className="mt-6 p-8">
           <h3 className="text-lg font-semibold text-text-primary mb-4">Which algorithm should you use?</h3>
           <div className="space-y-3 text-sm">
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-1 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Do you know how many clusters?</p>
@@ -140,7 +140,7 @@ export function ClusteringComparison() {
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-2 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Are clusters roughly spherical?</p>
@@ -149,7 +149,7 @@ export function ClusteringComparison() {
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-3 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Is noise present?</p>
@@ -158,7 +158,7 @@ export function ClusteringComparison() {
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-3 rounded-lg bg-obsidian-surface">
+            <div className="flex items-start gap-3 p-4 rounded-lg bg-obsidian-surface">
               <span className="text-cluster-4 font-bold mt-0.5">?</span>
               <div>
                 <p className="text-text-primary font-medium">Do you need probabilistic assignments?</p>

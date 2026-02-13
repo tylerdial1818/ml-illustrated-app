@@ -30,7 +30,7 @@ export function DBSCANViz() {
   }, [player])
 
   return (
-    <GlassCard className="p-6">
+    <GlassCard className="p-8">
       {/* Controls */}
       <div className="flex flex-wrap gap-6 mb-6">
         <Slider

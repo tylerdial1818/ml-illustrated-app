@@ -28,7 +28,6 @@ export function ClusteringOverview() {
   // Simple k-means for coloring (pre-computed)
   const clusterColors = useMemo(() => {
     // Quick centroid assignment for visualization
-    const k = 4
     const centroids = [
       { x: -3, y: 3 }, { x: 3, y: 3 }, { x: -3, y: -3 }, { x: 3, y: -3 },
     ]
@@ -63,7 +62,7 @@ export function ClusteringOverview() {
         </p>
 
         {/* Interactive scatter visualization */}
-        <GlassCard className="mt-8 p-6">
+        <GlassCard className="mt-8 p-8">
           <div className="flex flex-col items-center">
             <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} className="max-w-full h-auto">
               <g transform={`translate(${padding.left}, ${padding.top})`}>
@@ -106,7 +105,7 @@ export function ClusteringOverview() {
             { name: 'Hierarchical', desc: 'Build a tree of nested clusters (Agglomerative)', color: COLORS.clusters[2] },
             { name: 'Probabilistic', desc: 'Model data as mixture of distributions (GMM)', color: COLORS.clusters[3] },
           ].map((item) => (
-            <GlassCard key={item.name} className="p-4">
+            <GlassCard key={item.name} className="p-5">
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full" style={{ backgroundColor: item.color }} />
                 <span className="text-sm font-medium text-text-primary">{item.name}</span>

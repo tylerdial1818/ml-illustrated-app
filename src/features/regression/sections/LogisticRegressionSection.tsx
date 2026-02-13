@@ -30,7 +30,7 @@ export function LogisticRegressionSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Probabilistic output</li>
                 <li>Interpretable coefficients</li>
                 <li>Works well for linear boundaries</li>
@@ -39,7 +39,7 @@ export function LogisticRegressionSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Only linear decision boundaries</li>
                 <li>Struggles with imbalanced classes</li>
                 <li>Assumes independence of features</li>

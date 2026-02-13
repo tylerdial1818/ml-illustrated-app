@@ -80,7 +80,6 @@ function unstandardizeCoefficients(
  * coefficients are converted back to the original scale.
  */
 export function solveRidge(X: number[][], y: number[], alpha: number): RidgeResult {
-  const n = X.length
   const p = X[0].length
 
   // Standardize features (not the intercept)

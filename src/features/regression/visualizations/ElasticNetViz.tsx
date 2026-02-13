@@ -46,7 +46,7 @@ export function ElasticNetViz() {
   const activeFeatures = currentCoeffs.filter((c) => Math.abs(c) > 1e-10).length
 
   return (
-    <GlassCard className="p-6">
+    <GlassCard className="p-8">
       <div className="flex flex-wrap gap-6 mb-4">
         <Slider
           label="α (regularization)"

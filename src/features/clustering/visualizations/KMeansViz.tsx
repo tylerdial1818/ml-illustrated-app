@@ -30,7 +30,7 @@ export function KMeansViz() {
   const costs = useMemo(() => snapshots.map((s) => s.cost), [snapshots])
 
   return (
-    <GlassCard className="p-6">
+    <GlassCard className="p-8">
       {/* Controls */}
       <div className="flex flex-wrap gap-6 mb-6">
         <Slider

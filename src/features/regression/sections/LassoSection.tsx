@@ -28,7 +28,7 @@ export function LassoSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Automatic feature selection</li>
                 <li>Produces sparse models</li>
                 <li>More interpretable than Ridge</li>
@@ -37,7 +37,7 @@ export function LassoSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Unstable with correlated features</li>
                 <li>Selects at most n features (n = samples)</li>
                 <li>No closed-form solution</li>

@@ -47,7 +47,7 @@ export function LogisticRegressionViz() {
   }, [snap.predictions, y, threshold])
 
   return (
-    <GlassCard className="p-6">
+    <GlassCard className="p-8">
       <div className="flex flex-wrap gap-6 mb-6">
         <Slider
           label="Class separation"

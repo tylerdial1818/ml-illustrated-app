@@ -29,7 +29,7 @@ export function HierarchicalSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>No need to specify k in advance</li>
                 <li>Reveals hierarchical relationships</li>
                 <li>Explore multiple granularities</li>
@@ -38,7 +38,7 @@ export function HierarchicalSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>O(n²) memory, O(n³) time</li>
                 <li>Greedy — no backtracking</li>
                 <li>Not suitable for large datasets</li>

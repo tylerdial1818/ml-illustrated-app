@@ -29,7 +29,7 @@ export function GMMSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Soft / probabilistic assignments</li>
                 <li>Handles elliptical clusters</li>
                 <li>Models cluster shape & orientation</li>
@@ -38,7 +38,7 @@ export function GMMSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Assumes Gaussian-shaped clusters</li>
                 <li>Sensitive to initialization</li>
                 <li>Computationally heavier than K-Means</li>

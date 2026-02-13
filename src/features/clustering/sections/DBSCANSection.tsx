@@ -27,7 +27,7 @@ export function DBSCANSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Finds arbitrary-shaped clusters</li>
                 <li>No need to specify number of clusters</li>
                 <li>Naturally detects noise/outliers</li>
@@ -36,7 +36,7 @@ export function DBSCANSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Sensitive to ε parameter</li>
                 <li>Struggles with varying densities</li>
                 <li>Not great for high dimensions</li>

@@ -54,7 +54,7 @@ export function RegressionOverview() {
           the line — as short as possible.
         </p>
 
-        <GlassCard className="mt-8 p-6">
+        <GlassCard className="mt-8 p-8">
           <div className="flex flex-col items-center">
             <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} className="max-w-full h-auto">
               <g transform={`translate(${padding.left}, ${padding.top})`}>

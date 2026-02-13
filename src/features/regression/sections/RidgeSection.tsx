@@ -28,7 +28,7 @@ export function RidgeSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Handles multicollinearity well</li>
                 <li>Prevents overfitting</li>
                 <li>Closed-form solution</li>
@@ -37,7 +37,7 @@ export function RidgeSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Doesn't do feature selection</li>
                 <li>All features stay in the model</li>
                 <li>Need to tune α</li>

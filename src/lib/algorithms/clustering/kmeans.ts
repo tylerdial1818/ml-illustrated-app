@@ -1,4 +1,4 @@
-import type { Point2D } from '../../types'
+import type { Point2D } from '../../../types'
 import { squaredDistance, centroid } from '../../math/linalg'
 import { createRng } from '../../math/random'
 

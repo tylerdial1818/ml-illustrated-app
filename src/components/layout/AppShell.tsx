@@ -11,8 +11,8 @@ export function AppShell({ children }: AppShellProps) {
     <div className="min-h-screen bg-obsidian-bg">
       <Sidebar />
       <MobileNav />
-      <main className="lg:pl-64 min-h-screen">
-        <div className="w-full">
+      <main className="lg:ml-64 min-h-screen">
+        <div className="mx-auto max-w-6xl px-6 sm:px-8 lg:px-12">
           {children}
         </div>
       </main>

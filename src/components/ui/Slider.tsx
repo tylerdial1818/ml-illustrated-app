@@ -34,7 +34,7 @@ export function Slider({
   )
 
   return (
-    <div className={`flex flex-col gap-1.5 ${className}`}>
+    <div className={`flex flex-col gap-2 ${className}`}>
       <div className="flex items-center justify-between">
         <label className="text-xs font-medium text-text-secondary uppercase tracking-wider">
           {label}

@@ -28,7 +28,7 @@ export function KMeansSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Fast and scalable</li>
                 <li>Works well with spherical clusters</li>
                 <li>Easy to interpret</li>
@@ -37,7 +37,7 @@ export function KMeansSection() {
             </div>
             <div>
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
-              <ul className="space-y-1 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Assumes spherical, equally-sized clusters</li>
                 <li>Must specify k in advance</li>
                 <li>Sensitive to initialization</li>

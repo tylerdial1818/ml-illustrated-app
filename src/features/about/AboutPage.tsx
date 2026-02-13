@@ -3,7 +3,7 @@ import { GlassCard } from '../../components/ui/GlassCard'
 
 export function AboutPage() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-20">
+    <div className="max-w-3xl mx-auto py-16 lg:py-20">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -16,7 +16,7 @@ export function AboutPage() {
           beautiful, animated explanations paired with hands-on parameter exploration.
         </p>
 
-        <GlassCard className="mt-10 p-6">
+        <GlassCard className="mt-10 p-8">
           <h2 className="text-xl font-semibold text-text-primary mb-4">Why This Exists</h2>
           <p className="text-text-secondary leading-relaxed">
             Most ML education falls into two camps: dense textbooks full of proofs, or passive
@@ -26,7 +26,7 @@ export function AboutPage() {
           </p>
         </GlassCard>
 
-        <GlassCard className="mt-4 p-6">
+        <GlassCard className="mt-4 p-8">
           <h2 className="text-xl font-semibold text-text-primary mb-4">How It Works</h2>
           <p className="text-text-secondary leading-relaxed">
             Every visualization runs entirely in your browser. All algorithms are implemented from
@@ -35,7 +35,7 @@ export function AboutPage() {
           </p>
         </GlassCard>
 
-        <GlassCard className="mt-4 p-6">
+        <GlassCard className="mt-4 p-8">
           <h2 className="text-xl font-semibold text-text-primary mb-4">Built With</h2>
           <div className="flex flex-wrap gap-2">
             {['React', 'TypeScript', 'D3.js', 'Framer Motion', 'Tailwind CSS', 'KaTeX', 'Vite'].map(
