@@ -93,17 +93,17 @@ export function HomePage() {
           </h1>
           <p className="mt-6 text-xl text-text-secondary leading-relaxed max-w-2xl mx-auto">
             The visual intuition engine for machine learning. Interactive animations that show you
-            how models actually work — from K-Means to Transformers.
+            how models work from cluster models to deep neural networks.
           </p>
           <p className="mt-4 text-sm text-text-tertiary">
-            No black boxes. No hand-waving. Just clear, animated explanations you can play with.
+            No black boxes. Minimal equations. We're focused on clear, animated explanations you can play with.
           </p>
         </motion.div>
       </section>
 
       {/* Category Grid */}
       <section className="pb-20 max-w-4xl mx-auto w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {categories.map((cat, i) => {
             const isAvailable = cat.available !== false
             const content = (

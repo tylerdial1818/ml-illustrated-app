@@ -26,7 +26,7 @@ export function AboutPage() {
           </p>
         </GlassCard>
 
-        <GlassCard className="mt-4 p-8">
+        <GlassCard className="mt-6 p-8">
           <h2 className="text-xl font-semibold text-text-primary mb-4">How It Works</h2>
           <p className="text-text-secondary leading-relaxed">
             Every visualization runs entirely in your browser. All algorithms are implemented from
@@ -35,7 +35,7 @@ export function AboutPage() {
           </p>
         </GlassCard>
 
-        <GlassCard className="mt-4 p-8">
+        <GlassCard className="mt-6 p-8">
           <h2 className="text-xl font-semibold text-text-primary mb-4">Built With</h2>
           <div className="flex flex-wrap gap-2">
             {['React', 'TypeScript', 'D3.js', 'Framer Motion', 'Tailwind CSS', 'KaTeX', 'Vite'].map(
