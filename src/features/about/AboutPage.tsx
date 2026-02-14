@@ -11,16 +11,16 @@ export function AboutPage() {
       >
         <h1 className="text-4xl font-bold text-text-primary">About ML Illustrated</h1>
         <p className="mt-6 text-lg text-text-secondary leading-relaxed">
-          ML Illustrated is an interactive visualization platform that helps CS and Data Science
-          students build deep intuition for how machine learning models actually work — through
+          ML Illustrated is an interactive visualization platform that helps
+          students build deep intuition for how machine learning models work through
           beautiful, animated explanations paired with hands-on parameter exploration.
         </p>
 
         <GlassCard className="mt-10 p-8">
           <h2 className="text-xl font-semibold text-text-primary mb-4">Why This Exists</h2>
           <p className="text-text-secondary leading-relaxed">
-            Most ML education falls into two camps: dense textbooks full of proofs, or passive
-            YouTube videos you watch and forget. ML Illustrated sits in between — you can see the
+            Most ML education falls into two camps: dense textbooks full of math proofs, or passive
+            YouTube videos. ML Illustrated hopefully fills the gap between them. You can see the
             algorithm running step by step, tweak the parameters, and watch what happens. The goal
             is that "aha" moment when the math clicks because you can <em>see</em> it.
           </p>
@@ -30,8 +30,8 @@ export function AboutPage() {
           <h2 className="text-xl font-semibold text-text-primary mb-4">How It Works</h2>
           <p className="text-text-secondary leading-relaxed">
             Every visualization runs entirely in your browser. All algorithms are implemented from
-            scratch in TypeScript so we can expose every intermediate step — no hidden state, no
-            API calls, no loading spinners. Just you, the data, and the algorithm.
+            scratch in TypeScript so we can expose every intermediate step. This means there are no hidden states, no
+            API calls, no loading spinners.
           </p>
         </GlassCard>
 
@@ -52,7 +52,7 @@ export function AboutPage() {
         </GlassCard>
 
         <div className="mt-10 text-sm text-text-tertiary">
-          <p>Built by Tyler Dial.</p>
+          <p>Built by Tyler Dial as a project for the Northwestern MSDS Program.</p>
         </div>
       </motion.div>
     </div>
