@@ -2,7 +2,17 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { GlassCard } from '../../components/ui/GlassCard'
 
-const categories = [
+interface Category {
+  title: string
+  path: string
+  description: string
+  models: string[]
+  color: string
+  available?: boolean
+  icon: React.ReactNode
+}
+
+const categories: Category[] = [
   {
     title: 'Clustering',
     path: '/clustering',
@@ -41,34 +51,43 @@ const categories = [
   {
     title: 'Trees',
     path: '/trees',
-    description: 'Decision boundaries, random forests, and gradient boosting.',
-    models: ['Decision Trees', 'Random Forests', 'XGBoost'],
+    description: 'From simple decision rules to powerful ensembles that dominate tabular data.',
+    models: ['Decision Trees', 'Random Forest', 'Gradient Boosted Trees'],
     color: '#34D399',
-    available: false,
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-        <path d="M16 4v8M16 12l-8 8M16 12l8 8" stroke="#34D399" strokeWidth="2" strokeLinecap="round" opacity="0.5" />
-        <circle cx="16" cy="4" r="2" fill="#34D399" opacity="0.5" />
-        <circle cx="8" cy="22" r="2" fill="#34D399" opacity="0.3" />
-        <circle cx="24" cy="22" r="2" fill="#34D399" opacity="0.3" />
+        <path d="M16 4v8M16 12l-8 8M16 12l8 8" stroke="#34D399" strokeWidth="2" strokeLinecap="round" opacity="0.8" />
+        <circle cx="16" cy="4" r="2.5" fill="#34D399" opacity="0.8" />
+        <circle cx="8" cy="22" r="2" fill="#34D399" opacity="0.6" />
+        <circle cx="24" cy="22" r="2" fill="#34D399" opacity="0.6" />
+        <circle cx="4" cy="28" r="1.5" fill="#34D399" opacity="0.4" />
+        <circle cx="12" cy="28" r="1.5" fill="#34D399" opacity="0.4" />
+        <circle cx="20" cy="28" r="1.5" fill="#34D399" opacity="0.4" />
+        <circle cx="28" cy="28" r="1.5" fill="#34D399" opacity="0.4" />
       </svg>
     ),
   },
   {
     title: 'Neural Networks',
     path: '/neural-networks',
-    description: 'Neurons, layers, activation functions, and backpropagation.',
-    models: ['Perceptrons', 'MLPs', 'Backprop'],
+    description: 'Layers of simple transformations that compose into powerful learned functions.',
+    models: ['Perceptron', 'MLP', 'CNN', 'RNN/LSTM', 'GANs'],
     color: '#FBBF24',
-    available: false,
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-        <circle cx="6" cy="10" r="2" fill="#FBBF24" opacity="0.4" />
-        <circle cx="6" cy="22" r="2" fill="#FBBF24" opacity="0.4" />
-        <circle cx="16" cy="8" r="2" fill="#FBBF24" opacity="0.4" />
-        <circle cx="16" cy="16" r="2" fill="#FBBF24" opacity="0.4" />
-        <circle cx="16" cy="24" r="2" fill="#FBBF24" opacity="0.4" />
-        <circle cx="26" cy="16" r="2" fill="#FBBF24" opacity="0.4" />
+        <circle cx="6" cy="10" r="2.5" fill="#FBBF24" opacity="0.7" />
+        <circle cx="6" cy="22" r="2.5" fill="#FBBF24" opacity="0.7" />
+        <circle cx="16" cy="8" r="2.5" fill="#FBBF24" opacity="0.7" />
+        <circle cx="16" cy="16" r="2.5" fill="#FBBF24" opacity="0.7" />
+        <circle cx="16" cy="24" r="2.5" fill="#FBBF24" opacity="0.7" />
+        <circle cx="26" cy="16" r="2.5" fill="#FBBF24" opacity="0.7" />
+        <line x1="8" y1="10" x2="14" y2="8" stroke="#FBBF24" strokeWidth="0.8" opacity="0.3" />
+        <line x1="8" y1="10" x2="14" y2="16" stroke="#FBBF24" strokeWidth="0.8" opacity="0.3" />
+        <line x1="8" y1="22" x2="14" y2="16" stroke="#FBBF24" strokeWidth="0.8" opacity="0.3" />
+        <line x1="8" y1="22" x2="14" y2="24" stroke="#FBBF24" strokeWidth="0.8" opacity="0.3" />
+        <line x1="18" y1="8" x2="24" y2="16" stroke="#FBBF24" strokeWidth="0.8" opacity="0.3" />
+        <line x1="18" y1="16" x2="24" y2="16" stroke="#FBBF24" strokeWidth="0.8" opacity="0.3" />
+        <line x1="18" y1="24" x2="24" y2="16" stroke="#FBBF24" strokeWidth="0.8" opacity="0.3" />
       </svg>
     ),
   },
