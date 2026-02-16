@@ -22,6 +22,7 @@ export interface NavItem {
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', path: '/', icon: '◈', description: 'Overview', available: true },
+  { label: 'ML Basics', path: '/basics', icon: '△', description: 'Foundations: loss, gradients, overfitting, PCA', available: true },
   { label: 'Clustering', path: '/clustering', icon: '⊕', description: 'K-Means, DBSCAN, Hierarchical, GMM', available: true },
   { label: 'Regression', path: '/regression', icon: '⟋', description: 'OLS, Logistic, Ridge, Lasso, ElasticNet', available: true },
   { label: 'Trees', path: '/trees', icon: '⊞', description: 'Decision Trees, Random Forests, GBTs', available: true },

@@ -24,14 +24,6 @@ const NLP = {
 const TOKENS = ['The', 'cat', 'sat', 'on', 'the', 'mat']
 const N = TOKENS.length
 
-// ── Head Metadata ─────────────────────────────────────────────────────
-const HEAD_META = [
-  { name: 'Head 0', specialty: 'Positional', color: NLP.position, description: 'Attends to nearby tokens' },
-  { name: 'Head 1', specialty: 'Syntactic', color: NLP.query, description: 'Subject-verb, det-noun links' },
-  { name: 'Head 2', specialty: 'Semantic', color: NLP.key, description: 'Related concepts' },
-  { name: 'Head 3', specialty: 'Global', color: NLP.value, description: 'Broad context gathering' },
-]
-
 // ── Attention Weight Matrices (each row sums to 1.0) ──────────────────
 // Head 0: Positional -- diagonal-heavy, nearby tokens
 const HEAD_WEIGHTS: number[][][] = [

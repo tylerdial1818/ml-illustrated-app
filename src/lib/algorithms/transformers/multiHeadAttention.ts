@@ -46,7 +46,6 @@ export function computeMultiHeadAttention(
   )
 
   // Concatenate head outputs: for each position, stack all head outputs
-  const dModel = numHeads * dPerHead
   const concatenated: number[][] = Array.from({ length: seqLen }, (_, pos) => {
     const row: number[] = []
     for (let h = 0; h < numHeads; h++) {
@@ -126,7 +125,6 @@ export function adaptHeadCount(
   for (let h = 0; h < targetHeads; h++) {
     const baseIdx = h % sourceCount
     const base = sourceWeights[baseIdx]
-    const seqLen = base.length
 
     // Create a variation: sharpen or soften the pattern
     const sharpen = h >= sourceCount // second pass gets sharpened versions

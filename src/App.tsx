@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { AppShell } from './components/layout/AppShell'
 import { HomePage } from './features/home/HomePage'
+import { BasicsPage } from './features/basics/BasicsPage'
 import { ClusteringPage } from './features/clustering/ClusteringPage'
 import { RegressionPage } from './features/regression/RegressionPage'
 import { AboutPage } from './features/about/AboutPage'
@@ -33,6 +34,7 @@ function App() {
     <AppShell>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/basics" element={<BasicsPage />} />
         <Route path="/clustering" element={<ClusteringPage />} />
         <Route path="/regression" element={<RegressionPage />} />
         <Route
