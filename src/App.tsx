@@ -14,6 +14,11 @@ const NeuralNetworksPage = lazy(() =>
     default: m.NeuralNetworksPage,
   }))
 )
+const TransformersPage = lazy(() =>
+  import('./features/transformers/TransformersPage').then((m) => ({
+    default: m.TransformersPage,
+  }))
+)
 
 function PageLoader() {
   return (
@@ -43,6 +48,14 @@ function App() {
           element={
             <Suspense fallback={<PageLoader />}>
               <NeuralNetworksPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/transformers"
+          element={
+            <Suspense fallback={<PageLoader />}>
+              <TransformersPage />
             </Suspense>
           }
         />

@@ -26,7 +26,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Regression', path: '/regression', icon: '⟋', description: 'OLS, Logistic, Ridge, Lasso, ElasticNet', available: true },
   { label: 'Trees', path: '/trees', icon: '⊞', description: 'Decision Trees, Random Forests, GBTs', available: true },
   { label: 'Neural Nets', path: '/neural-networks', icon: '◎', description: 'Perceptrons, MLPs, CNNs, RNNs', available: true },
-  { label: 'Transformers', path: '/transformers', icon: '⧫', description: 'Attention, Positional Encoding', available: false },
+  { label: 'Transformers', path: '/transformers', icon: '⧫', description: 'Attention, Positional Encoding', available: true },
   { label: 'About', path: '/about', icon: '○', description: 'About this project', available: true },
 ]
 

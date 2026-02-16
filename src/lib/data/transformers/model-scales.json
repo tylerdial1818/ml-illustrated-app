@@ -1,0 +1,62 @@
+{
+  "models": [
+    {
+      "name": "BERT-base",
+      "params": 110000000,
+      "layers": 12,
+      "dModel": 768,
+      "heads": 12,
+      "year": 2018
+    },
+    {
+      "name": "BERT-large",
+      "params": 340000000,
+      "layers": 24,
+      "dModel": 1024,
+      "heads": 16,
+      "year": 2018
+    },
+    {
+      "name": "GPT-2",
+      "params": 1500000000,
+      "layers": 48,
+      "dModel": 1600,
+      "heads": 25,
+      "year": 2019
+    },
+    {
+      "name": "GPT-3",
+      "params": 175000000000,
+      "layers": 96,
+      "dModel": 12288,
+      "heads": 96,
+      "year": 2020
+    },
+    {
+      "name": "GPT-4",
+      "params": null,
+      "layers": null,
+      "dModel": null,
+      "heads": null,
+      "year": 2023,
+      "note": "Architecture not publicly disclosed"
+    },
+    {
+      "name": "LLaMA 2 70B",
+      "params": 70000000000,
+      "layers": 80,
+      "dModel": 8192,
+      "heads": 64,
+      "year": 2023
+    },
+    {
+      "name": "Claude 3",
+      "params": null,
+      "layers": null,
+      "dModel": null,
+      "heads": null,
+      "year": 2024,
+      "note": "Architecture not publicly disclosed"
+    }
+  ]
+}

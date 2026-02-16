@@ -91,6 +91,23 @@ const categories: Category[] = [
       </svg>
     ),
   },
+  {
+    title: 'Transformers & NLP',
+    path: '/transformers',
+    description: 'The architecture behind GPT, BERT, and every modern LLM — built up from first principles.',
+    models: ['Attention', 'Positional Encoding', 'Multi-Head', 'BERT vs GPT'],
+    color: '#38BDF8',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect x="4" y="12" width="5" height="8" rx="1" fill="#F472B6" opacity="0.7" />
+        <rect x="13.5" y="12" width="5" height="8" rx="1" fill="#34D399" opacity="0.7" />
+        <rect x="23" y="12" width="5" height="8" rx="1" fill="#FBBF24" opacity="0.7" />
+        <path d="M6.5 12 C6.5 6, 16 6, 16 12" stroke="#38BDF8" strokeWidth="1.2" opacity="0.5" fill="none" />
+        <path d="M6.5 12 C6.5 4, 25.5 4, 25.5 12" stroke="#38BDF8" strokeWidth="0.8" opacity="0.3" fill="none" />
+        <path d="M16 12 C16 8, 25.5 8, 25.5 12" stroke="#38BDF8" strokeWidth="1" opacity="0.4" fill="none" />
+      </svg>
+    ),
+  },
 ]
 
 export function HomePage() {
