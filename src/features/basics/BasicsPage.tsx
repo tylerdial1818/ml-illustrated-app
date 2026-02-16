@@ -29,8 +29,8 @@ export function BasicsPage() {
         <div className="pt-12 lg:pt-16 pb-10">
           <h1 className="text-4xl lg:text-5xl font-bold text-text-primary">ML Basics</h1>
           <p className="mt-4 text-lg text-text-secondary max-w-2xl leading-relaxed">
-            The prerequisite concepts every ML model depends on. Start here if you have high school
-            math and want to understand machine learning from the ground up.
+            The prerequisite concepts every ML model depends on. Start here if you
+            want to understand machine learning from the ground up.
           </p>
         </div>
 

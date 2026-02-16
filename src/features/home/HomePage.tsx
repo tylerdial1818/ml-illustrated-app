@@ -68,6 +68,23 @@ const categories: Category[] = [
     ),
   },
   {
+    title: 'Bayesian ML',
+    path: '/bayesian',
+    description: 'Start with a belief, observe data, update. Every prediction comes with built-in uncertainty.',
+    models: ["Bayes' Theorem", 'Bayesian Regression', 'Naive Bayes', 'Gaussian Processes'],
+    color: '#818CF8',
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <path d="M4 28 Q10 8, 16 16 Q22 24, 28 4" stroke="#818CF8" strokeWidth="2" strokeLinecap="round" opacity="0.7" fill="none" />
+        <path d="M4 28 Q12 12, 16 16 Q20 20, 28 4" stroke="#6366F1" strokeWidth="1.2" strokeLinecap="round" opacity="0.4" fill="none" />
+        <path d="M4 28 Q8 4, 16 16 Q24 28, 28 4" stroke="#A5B4FC" strokeWidth="1.2" strokeLinecap="round" opacity="0.4" fill="none" />
+        <circle cx="10" cy="18" r="2" fill="#818CF8" opacity="0.6" />
+        <circle cx="16" cy="16" r="2" fill="#818CF8" opacity="0.6" />
+        <circle cx="22" cy="12" r="2" fill="#818CF8" opacity="0.6" />
+      </svg>
+    ),
+  },
+  {
     title: 'Neural Networks',
     path: '/neural-networks',
     description: 'Layers of simple transformations that compose into powerful learned functions.',

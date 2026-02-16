@@ -15,21 +15,10 @@ export interface ClusterAssignment {
 export interface NavItem {
   label: string
   path: string
-  icon: string
+  icon: React.ReactNode
   description: string
   available: boolean
 }
-
-export const NAV_ITEMS: NavItem[] = [
-  { label: 'Home', path: '/', icon: '◈', description: 'Overview', available: true },
-  { label: 'ML Basics', path: '/basics', icon: '△', description: 'Foundations: loss, gradients, overfitting, PCA', available: true },
-  { label: 'Clustering', path: '/clustering', icon: '⊕', description: 'K-Means, DBSCAN, Hierarchical, GMM', available: true },
-  { label: 'Regression', path: '/regression', icon: '⟋', description: 'OLS, Logistic, Ridge, Lasso, ElasticNet', available: true },
-  { label: 'Trees', path: '/trees', icon: '⊞', description: 'Decision Trees, Random Forests, GBTs', available: true },
-  { label: 'Neural Nets', path: '/neural-networks', icon: '◎', description: 'Perceptrons, MLPs, CNNs, RNNs', available: true },
-  { label: 'Transformers', path: '/transformers', icon: '⧫', description: 'Attention, Positional Encoding', available: true },
-  { label: 'About', path: '/about', icon: '○', description: 'About this project', available: true },
-]
 
 export const COLORS = {
   clusters: ['#6366F1', '#F472B6', '#34D399', '#FBBF24', '#38BDF8', '#A78BFA', '#FB923C', '#E879F9'],

@@ -15,6 +15,11 @@ const NeuralNetworksPage = lazy(() =>
     default: m.NeuralNetworksPage,
   }))
 )
+const BayesianPage = lazy(() =>
+  import('./features/bayesian/BayesianPage').then((m) => ({
+    default: m.BayesianPage,
+  }))
+)
 const TransformersPage = lazy(() =>
   import('./features/transformers/TransformersPage').then((m) => ({
     default: m.TransformersPage,
@@ -42,6 +47,14 @@ function App() {
           element={
             <Suspense fallback={<PageLoader />}>
               <TreesPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/bayesian"
+          element={
+            <Suspense fallback={<PageLoader />}>
+              <BayesianPage />
             </Suspense>
           }
         />

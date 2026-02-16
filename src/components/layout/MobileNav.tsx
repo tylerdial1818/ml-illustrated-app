@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { useNavigationStore } from '../../stores/useNavigationStore'
-import { NAV_ITEMS } from '../../types'
+import { NAV_ITEMS } from '../../config/navItems'
 
 export function MobileNav() {
   const { sidebarOpen, setSidebarOpen } = useNavigationStore()

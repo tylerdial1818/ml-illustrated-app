@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { NAV_ITEMS } from '../../types'
+import { NAV_ITEMS } from '../../config/navItems'
 
 export function Sidebar() {
   const mainItems = NAV_ITEMS.filter((item) => item.label !== 'About')
