@@ -5,7 +5,6 @@ import {
   matrixAdd,
   matrixScale,
   matrixVectorMultiply,
-  identityMatrix,
   sampleMultivariateNormal,
   gaussian2DPDF,
 } from './matrixUtils'

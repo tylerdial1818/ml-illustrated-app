@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useRef, useEffect } from 'react'
+import React, { useState, useMemo, useCallback, useRef, useEffect } from 'react'
 import { GlassCard } from '../../../components/ui/GlassCard'
 import { Slider } from '../../../components/ui/Slider'
 import { Toggle } from '../../../components/ui/Toggle'
@@ -92,7 +92,7 @@ function ContourPanel({
     const cellH = h / (res - 1)
     return levels.map((level) => {
       const threshold = level * maxDensity
-      const rects: JSX.Element[] = []
+      const rects: React.ReactElement[] = []
       for (let j = 0; j < res; j++) {
         for (let i = 0; i < res; i++) {
           if (data.density[j][i] >= threshold) {
@@ -117,12 +117,6 @@ function ContourPanel({
       return <g key={level}>{rects}</g>
     })
   }
-
-  // OLS and MAP markers
-  const olsEst = useMemo(
-    () => model.hasData ? { slope: model.posteriorMean[1], intercept: model.posteriorMean[0] } : null,
-    [model.posteriorMean, model.hasData]
-  )
 
   return (
     <svg width={width} height={height} className="block">

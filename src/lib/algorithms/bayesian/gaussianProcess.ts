@@ -165,7 +165,7 @@ export class GaussianProcess {
   samplePosterior(xRange: number[], nSamples: number, seed = 42): number[][] {
     if (this.trainingX.length === 0) return this.samplePrior(xRange, nSamples, seed)
 
-    const { mean, variance } = this.predict(xRange)
+    const { mean } = this.predict(xRange)
     const n = xRange.length
 
     // Build posterior covariance at xRange
