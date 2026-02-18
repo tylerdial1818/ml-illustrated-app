@@ -40,7 +40,7 @@ export function PerceptronMath() {
 
       <div className="text-sm text-text-tertiary border-l-2 border-obsidian-border pl-4">
         <p>
-          <Eq tex="\eta" /> is the learning rate. This is essentially how big a step each update takes.{' '}
+          <Eq tex="\eta" /> is the learning rate. This controls how big a step each update takes.{' '}
           <Eq tex="(y - \hat{y})" /> is the error: the difference between the true label and the prediction.
           Each weight <Eq tex="w_i" /> is adjusted proportionally to both the error and the input <Eq tex="x_i" />.
         </p>

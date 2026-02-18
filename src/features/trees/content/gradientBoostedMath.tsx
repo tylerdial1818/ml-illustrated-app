@@ -11,7 +11,7 @@ export function GradientBoostedMath() {
       <div>
         <p className="text-sm font-medium text-text-primary mb-2">Ensemble Prediction</p>
         <p className="text-sm text-text-secondary mb-3">
-          The model is built additively — each new tree corrects the errors of all previous trees:
+          The model is built additively. Each new tree corrects the errors of all previous trees:
         </p>
         <div className="bg-obsidian-surface rounded-lg p-4 text-center">
           <Eq tex="F_m(x) = F_{m-1}(x) + \eta \cdot h_m(x)" display />
@@ -25,14 +25,14 @@ export function GradientBoostedMath() {
       <div>
         <p className="text-sm font-medium text-text-primary mb-2">Residuals (Pseudo-Residuals)</p>
         <p className="text-sm text-text-secondary mb-3">
-          Each new tree is fit to the negative gradient of the loss function — the "residuals" that tell
+          Each new tree is fit to the negative gradient of the loss function. These "residuals" tell
           each tree what to fix:
         </p>
         <div className="bg-obsidian-surface rounded-lg p-4 text-center">
           <Eq tex="r_{im} = -\frac{\partial L(y_i, F_{m-1}(x_i))}{\partial F_{m-1}(x_i)}" display />
         </div>
         <p className="mt-2 text-xs text-text-tertiary">
-          For squared error loss, this simplifies to <Eq tex="r_{im} = y_i - F_{m-1}(x_i)" /> — literally
+          For squared error loss, this simplifies to <Eq tex="r_{im} = y_i - F_{m-1}(x_i)" />, literally
           the difference between the true value and the current prediction.
         </p>
       </div>
@@ -58,8 +58,8 @@ export function GradientBoostedMath() {
         <p>
           The learning rate <Eq tex="\eta" /> (typically 0.01–0.3) controls the trade-off between
           number of trees and contribution per tree. Smaller <Eq tex="\eta" /> requires more trees
-          but generally yields better generalization. This is gradient descent in function space —
-          each tree takes a small step toward the optimal prediction.
+          but generally yields better generalization. This is gradient descent in function space.
+          Each tree takes a small step toward the optimal prediction.
         </p>
       </div>
     </div>

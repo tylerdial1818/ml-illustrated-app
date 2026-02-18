@@ -42,7 +42,7 @@ export function GMMMath() {
       <div className="text-sm text-text-tertiary border-l-2 border-obsidian-border pl-4">
         <p>
           <Eq tex="\pi_k" /> is how big each cloud is (its weight). <Eq tex="\mu_k" /> is its center.{' '}
-          <Eq tex="\Sigma_k" /> is its shape — the ellipse you see. The E-step figures out which cloud
+          <Eq tex="\Sigma_k" /> is its shape (the ellipse you see). The E-step figures out which cloud
           each point probably came from; the M-step adjusts the clouds to match.
         </p>
       </div>

@@ -53,7 +53,7 @@ const ARCHITECTURES = [
     name: 'GAN',
     color: COLORS.clusters[5],
     dataType: 'Any (generative)',
-    innovation: 'Adversarial training — generator vs discriminator',
+    innovation: 'Adversarial training: generator vs discriminator',
     useCases: 'Image generation, style transfer, data augmentation',
     strengths: 'Produces realistic synthetic data',
     limitations: 'Hard to train, mode collapse',

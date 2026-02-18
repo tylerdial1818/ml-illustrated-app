@@ -25,8 +25,8 @@ export function RidgeMath() {
       <div className="text-sm text-text-tertiary border-l-2 border-obsidian-border pl-4">
         <p>
           The <Eq tex="\alpha \sum \beta_j^2" /> term penalizes big coefficients. Larger α = more penalty =
-          smoother fit. The <Eq tex="\alpha I" /> added to <Eq tex="X^T X" /> is what makes this "ridge" —
-          it adds a constant ridge along the diagonal, ensuring the matrix is always invertible.
+          smoother fit. The <Eq tex="\alpha I" /> added to <Eq tex="X^T X" /> is what makes this "ridge."
+          It adds a constant ridge along the diagonal, ensuring the matrix is always invertible.
         </p>
       </div>
     </div>

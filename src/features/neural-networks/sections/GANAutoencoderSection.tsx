@@ -99,7 +99,7 @@ export function GANAutoencoderSection() {
               creates fake data from random noise, trying to fool the discriminator. The{' '}
               <strong className="text-text-primary">discriminator</strong> tries to tell real data from fakes.
               As they train together, the generator gets better at producing realistic data, and the
-              discriminator gets better at detecting fakes — until the generator's output is indistinguishable
+              discriminator gets better at detecting fakes, until the generator's output is indistinguishable
               from real data.
             </p>
 

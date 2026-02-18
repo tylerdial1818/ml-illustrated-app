@@ -13,10 +13,10 @@ export function LinearRegressionSection() {
           <p className="text-text-secondary leading-relaxed">
             Find the straight line that minimizes the total squared distance from every point to the line.
             Squaring means <strong className="text-text-primary">big misses are penalized way more</strong> than
-            small ones — a point that's 4 units away costs 16, not 4.
+            small ones. A point that's 4 units away costs 16, not 4.
           </p>
           <p className="mt-3 text-text-secondary leading-relaxed">
-            The red squares you see in the visualization are literal — their area is the squared error for each
+            The red squares you see in the visualization are literal. Their area is the squared error for each
             point. OLS minimizes the total area of all those squares.
           </p>
         </div>

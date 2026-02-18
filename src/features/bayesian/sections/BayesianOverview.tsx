@@ -30,7 +30,7 @@ export function BayesianOverview() {
             Every model you have seen so far on this site finds a single best answer. Linear
             regression finds the one best-fit line. A decision tree finds the one best set of
             splits. These are called point estimates. Bayesian machine learning takes a
-            fundamentally different approach. Instead of finding one best answer, it maintains a
+            completely different approach. Instead of finding one best answer, it maintains a
             full probability distribution over all possible answers and updates that distribution
             as it sees more data.
           </p>

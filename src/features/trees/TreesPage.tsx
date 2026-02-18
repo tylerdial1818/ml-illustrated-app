@@ -23,7 +23,7 @@ export function TreesPage() {
         <div className="pt-12 lg:pt-16 pb-10">
           <h1 className="text-4xl lg:text-5xl font-bold text-text-primary">Tree-Based Models</h1>
           <p className="mt-4 text-lg text-text-secondary max-w-2xl leading-relaxed">
-            From simple decision rules to powerful ensembles — learn how trees partition data
+            From simple decision rules to powerful ensembles. Learn how trees partition data
             through sequences of yes/no questions.
           </p>
         </div>

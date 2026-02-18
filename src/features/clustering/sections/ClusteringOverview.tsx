@@ -56,7 +56,7 @@ export function ClusteringOverview() {
           What is Clustering?
         </h2>
         <p className="text-text-secondary max-w-2xl leading-relaxed">
-          Clustering is about finding hidden groups in data — without anyone telling you what the
+          Clustering is about finding hidden groups in data, without anyone telling you what the
           groups are. You have a pile of unlabeled data points, and the algorithm's job is to figure
           out which ones belong together.
         </p>

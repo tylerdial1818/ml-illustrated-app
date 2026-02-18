@@ -13,12 +13,12 @@ export function HierarchicalSection() {
           <p className="text-text-secondary leading-relaxed">
             Start with every point as its own cluster. Repeatedly{' '}
             <strong className="text-text-primary">merge the two closest clusters</strong> until
-            everything is one big group. The dendrogram records every merge — you cut it at the
+            everything is one big group. The dendrogram records every merge. You cut it at the
             height where the grouping looks right.
           </p>
           <p className="mt-3 text-text-secondary leading-relaxed">
             The beauty of hierarchical clustering is that you get all possible groupings at once. Move the
-            cut line up for fewer clusters, down for more — without re-running the algorithm.
+            cut line up for fewer clusters, down for more, without re-running the algorithm.
           </p>
         </div>
       }
@@ -40,7 +40,7 @@ export function HierarchicalSection() {
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
               <ul className="space-y-2 text-sm text-text-secondary">
                 <li>O(n²) memory, O(n³) time</li>
-                <li>Greedy — no backtracking</li>
+                <li>Greedy: no backtracking</li>
                 <li>Not suitable for large datasets</li>
                 <li>Sensitive to linkage choice</li>
               </ul>

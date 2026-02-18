@@ -111,7 +111,7 @@ const categories: Category[] = [
   {
     title: 'Transformers & NLP',
     path: '/transformers',
-    description: 'The architecture behind GPT, BERT, and every modern LLM — built up from first principles.',
+    description: 'The architecture behind GPT, BERT, and every modern LLM. Built up from first principles.',
     models: ['Attention', 'Positional Encoding', 'Multi-Head', 'BERT vs GPT'],
     color: '#38BDF8',
     icon: (

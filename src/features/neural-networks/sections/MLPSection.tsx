@@ -7,7 +7,7 @@ export function MLPSection() {
     <ModelSection
       id="mlp"
       title="Multi-Layer Perceptron (MLP)"
-      subtitle="Stack layers of neurons to learn non-linear decision boundaries — the workhorse feedforward network."
+      subtitle="Stack layers of neurons to learn non-linear decision boundaries. The workhorse feedforward network."
       intuition={
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">
@@ -35,7 +35,7 @@ export function MLPSection() {
                 <li>Learns non-linear decision boundaries</li>
                 <li>Universal function approximator</li>
                 <li>Works well on tabular and structured data</li>
-                <li>Flexible architecture — add layers and neurons as needed</li>
+                <li>Flexible architecture: add layers and neurons as needed</li>
               </ul>
             </div>
             <div>

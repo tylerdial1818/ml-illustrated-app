@@ -6,7 +6,7 @@ export interface ClassificationPoint {
   label: number
 }
 
-/** Classic XOR data — perceptron failure case */
+/** Classic XOR data - perceptron failure case */
 export function makeXOR(n: number, noise = 0.15, seed = 42): ClassificationPoint[] {
   const rng = createRng(seed)
   const points: ClassificationPoint[] = []
@@ -60,7 +60,7 @@ export function makeMoons(n: number, noise = 0.1, seed = 42): ClassificationPoin
   return points
 }
 
-/** Spiral data — hard non-linear classification */
+/** Spiral data - hard non-linear classification */
 export function makeSpirals(n: number, noise = 0.2, seed = 42): ClassificationPoint[] {
   const rng = createRng(seed)
   const points: ClassificationPoint[] = []

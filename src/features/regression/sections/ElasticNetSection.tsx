@@ -7,7 +7,7 @@ export function ElasticNetSection() {
     <ModelSection
       id="elasticnet"
       title="ElasticNet"
-      subtitle="The best of both worlds — blend Ridge and Lasso for stability plus sparsity."
+      subtitle="The best of both worlds. Blend Ridge and Lasso for stability plus sparsity."
       intuition={
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">
@@ -17,7 +17,7 @@ export function ElasticNetSection() {
             a diamond (Lasso) to a circle (Ridge) as you adjust the slider.
           </p>
           <p className="mt-3 text-text-secondary leading-relaxed">
-            This is especially useful when features are correlated — Lasso tends to randomly pick one,
+            This is especially useful when features are correlated. Lasso tends to randomly pick one,
             while ElasticNet can include groups of correlated features together.
           </p>
         </div>

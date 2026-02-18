@@ -24,11 +24,11 @@ export function TreesOverview() {
           Tree-based models learn a sequence of yes/no questions that carve feature space into regions.
           Each question splits the data along one feature, and the process repeats until
           each region is "pure enough" to make a confident prediction. Think of it as playing
-          20 Questions with your data — each answer narrows down the possibilities.
+          20 Questions with your data. Each answer narrows down the possibilities.
         </p>
         <p className="mt-3 text-text-secondary max-w-2xl leading-relaxed">
           A single tree is intuitive but fragile. The real power comes from combining many trees
-          into ensembles — either by training them independently and voting (bagging) or by training
+          into ensembles, either by training them independently and voting (bagging) or by training
           them sequentially so each one fixes the previous mistakes (boosting).
         </p>
 
@@ -67,7 +67,7 @@ export function TreesOverview() {
         <GlassCard className="mt-6 p-6">
           <p className="text-sm text-text-secondary leading-relaxed">
             <strong className="text-text-primary">The core trade-off:</strong> a single deep tree memorizes
-            the training data (high variance, low bias). Ensembles fix this — Random Forests average out
+            the training data (high variance, low bias). Ensembles fix this. Random Forests average out
             the noise, while Gradient Boosted Trees carefully reduce bias one step at a time.
           </p>
         </GlassCard>

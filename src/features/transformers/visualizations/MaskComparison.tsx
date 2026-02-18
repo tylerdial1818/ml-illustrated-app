@@ -825,7 +825,7 @@ function CrossAttentionViz() {
       <div className="mt-3 text-center">
         <p className="text-[9px] text-text-tertiary">
           Generating <span className="text-text-secondary font-medium">&quot;{ENGLISH_TOKENS[activeDecToken]}&quot;</span>
-          {' '}— strongest attention to{' '}
+          {' '}, strongest attention to{' '}
           <span style={{ color: NLP.key }} className="font-medium">
             &quot;{FRENCH_TOKENS[weights.indexOf(maxW)]}&quot;
           </span>

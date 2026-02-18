@@ -16,7 +16,7 @@ export function KMeansSection() {
             Repeat until nobody moves.
           </p>
           <p className="mt-3 text-text-secondary leading-relaxed">
-            K-Means is greedy — it finds <em>a</em> solution fast, but not necessarily <em>the best</em> one.
+            K-Means is greedy. It finds <em>a</em> solution fast, but not necessarily <em>the best</em> one.
             That's why initialization matters, and why you might want to run it multiple times.
           </p>
         </div>

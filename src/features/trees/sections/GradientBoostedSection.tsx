@@ -19,7 +19,7 @@ export function GradientBoostedSection() {
           <p className="mt-3 text-text-secondary leading-relaxed">
             Gradient Boosted Trees work the same way. Each new tree is trained not on the original
             targets, but on the <em>residual errors</em> left by the ensemble so far. The learning
-            rate controls how much each tree contributes — small steps lead to better generalization,
+            rate controls how much each tree contributes. Small steps lead to better generalization,
             just like careful, incremental studying beats cramming.
           </p>
         </div>
@@ -43,7 +43,7 @@ export function GradientBoostedSection() {
               <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Can overfit if not carefully tuned</li>
                 <li>Requires hyperparameter tuning (learning rate, depth, n_trees)</li>
-                <li>Sequential training — harder to parallelize than Random Forest</li>
+                <li>Sequential training, harder to parallelize than Random Forest</li>
                 <li>Less interpretable than single trees or Random Forests</li>
               </ul>
             </div>

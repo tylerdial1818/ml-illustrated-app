@@ -412,7 +412,7 @@ export function runMLPTraining(
     })
 
     // Generate decision boundary grid every epoch
-    // (for smooth animation — the 30x30 grid is small enough)
+    // (for smooth animation - the 30x30 grid is small enough)
     const grid = generateDecisionBoundaryGrid(
       data,
       weights,

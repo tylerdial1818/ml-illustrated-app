@@ -11,7 +11,7 @@ export function RidgeSection() {
       intuition={
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">
-            Regular linear regression can go wild — huge coefficients that overfit the noise. Ridge adds a
+            Regular linear regression can go wild with huge coefficients that overfit the noise. Ridge adds a
             penalty: <strong className="text-text-primary">"minimize error, but also keep your coefficients small."</strong>{' '}
             The bigger the penalty (α), the more the coefficients shrink toward zero.
           </p>

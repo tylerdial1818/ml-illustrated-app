@@ -15,7 +15,7 @@ export function TreesComparison() {
       >
         <h2 className="text-3xl font-semibold text-text-primary">Comparison</h2>
         <p className="mt-2 text-lg text-text-secondary max-w-2xl">
-          Three approaches to the same idea — splitting data with yes/no questions.
+          Three approaches to the same idea: splitting data with yes/no questions.
           Each makes different trade-offs between interpretability, accuracy, and robustness.
         </p>
 
@@ -31,11 +31,11 @@ export function TreesComparison() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Interpretability</p>
-                  <p>High — full decision path is visible</p>
+                  <p>High: full decision path is visible</p>
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Variance</p>
-                  <p>High — sensitive to data changes</p>
+                  <p>High: sensitive to data changes</p>
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Bias</p>
@@ -57,11 +57,11 @@ export function TreesComparison() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Interpretability</p>
-                  <p>Medium — feature importances available</p>
+                  <p>Medium: feature importances available</p>
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Variance</p>
-                  <p>Low — averaging smooths out noise</p>
+                  <p>Low: averaging smooths out noise</p>
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Bias</p>
@@ -69,7 +69,7 @@ export function TreesComparison() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Training</p>
-                  <p>Parallelizable — trees are independent</p>
+                  <p>Parallelizable: trees are independent</p>
                 </div>
               </div>
             </div>
@@ -83,19 +83,19 @@ export function TreesComparison() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Interpretability</p>
-                  <p>Low — complex ensemble of weak learners</p>
+                  <p>Low: complex ensemble of weak learners</p>
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Variance</p>
-                  <p>Low — regularized by learning rate</p>
+                  <p>Low: regularized by learning rate</p>
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Bias</p>
-                  <p>Low — iteratively reduces residuals</p>
+                  <p>Low: iteratively reduces residuals</p>
                 </div>
                 <div>
                   <p className="text-xs font-medium text-text-tertiary mb-1">Training</p>
-                  <p>Sequential — each tree depends on previous</p>
+                  <p>Sequential: each tree depends on previous</p>
                 </div>
               </div>
             </div>

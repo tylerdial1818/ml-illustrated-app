@@ -36,7 +36,7 @@ export function HierarchicalMath() {
       <div className="text-sm text-text-tertiary border-l-2 border-obsidian-border pl-4">
         <p>
           Single linkage finds the shortest distance between any pair of points across two clusters.
-          Ward's method minimizes the total within-cluster variance after merging — it tends to produce
+          Ward's method minimizes the total within-cluster variance after merging. It tends to produce
           the most balanced, compact clusters.
         </p>
       </div>

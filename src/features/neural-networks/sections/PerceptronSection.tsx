@@ -12,7 +12,7 @@ export function PerceptronSection() {
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">
             Think of a perceptron as a <strong className="text-text-primary">bouncer at a club</strong>.
-            It looks at a few things about you — maybe your age and dress code — multiplies each by
+            It looks at a few things about you (maybe your age and dress code), multiplies each by
             how much it cares about that factor (the weights), adds them up, and makes a single
             yes-or-no decision. If the total score crosses a threshold, you're in. Otherwise, you're out.
           </p>
@@ -32,7 +32,7 @@ export function PerceptronSection() {
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
               <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Dead simple to understand and implement</li>
-                <li>Fast to train — just one pass per update</li>
+                <li>Fast to train: just one pass per update</li>
                 <li>Foundation for understanding all neural networks</li>
                 <li>Guaranteed to converge for linearly separable data</li>
               </ul>
@@ -42,7 +42,7 @@ export function PerceptronSection() {
               <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Only works on linearly separable problems</li>
                 <li>Cannot learn XOR or other non-linear patterns</li>
-                <li>Single decision boundary — no nuance</li>
+                <li>Single decision boundary, no nuance</li>
                 <li>No hidden layers means no feature composition</li>
               </ul>
             </div>

@@ -50,8 +50,8 @@ export function RegressionOverview() {
         </h2>
         <p className="text-text-secondary max-w-2xl leading-relaxed">
           Regression is about drawing the best line (or curve) through data to predict a continuous outcome.
-          The goal: find the line that makes the residual lines — the vertical distances from each point to
-          the line — as short as possible.
+          The goal: find the line that makes the residual lines (the vertical distances from each point to
+          the line) as short as possible.
         </p>
 
         <GlassCard className="mt-8 p-8">

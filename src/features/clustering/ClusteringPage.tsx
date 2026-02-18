@@ -25,7 +25,7 @@ export function ClusteringPage() {
         <div className="pt-12 lg:pt-16 pb-10">
           <h1 className="text-4xl lg:text-5xl font-bold text-text-primary">Clustering</h1>
           <p className="mt-4 text-lg text-text-secondary max-w-2xl leading-relaxed">
-            Grouping data without labels — discovering hidden structure through algorithms
+            Grouping data without labels. Discover hidden structure through algorithms
             that find patterns you didn't know were there.
           </p>
         </div>

@@ -24,7 +24,7 @@ export function LogisticMath() {
 
       <div className="text-sm text-text-tertiary border-l-2 border-obsidian-border pl-4">
         <p>
-          <Eq tex="z" /> is the linear combination — same as linear regression. <Eq tex="\sigma" /> squishes
+          <Eq tex="z" /> is the linear combination, same as linear regression. <Eq tex="\sigma" /> squishes
           it into a probability between 0 and 1. The loss function heavily penalizes confident wrong
           predictions (predicting 0.99 when the true label is 0).
         </p>

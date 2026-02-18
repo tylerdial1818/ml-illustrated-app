@@ -418,7 +418,7 @@ export function GradientBoostedViz() {
         </div>
         <div className="flex gap-2 overflow-x-auto pb-2">
           {snap.nTrees === 0 && (
-            <div className="text-xs text-text-tertiary italic px-2">No trees yet — starting with mean prediction</div>
+            <div className="text-xs text-text-tertiary italic px-2">No trees yet. Starting with mean prediction</div>
           )}
           {/* Mean base prediction card */}
           <motion.div

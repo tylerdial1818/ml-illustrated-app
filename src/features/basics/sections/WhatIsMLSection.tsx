@@ -187,7 +187,7 @@ export function WhatIsMLSection() {
           </h4>
           <div className="max-w-2xl space-y-3 mb-8">
             <p className="text-text-secondary leading-relaxed">
-              There are two major paradigms in machine learning.
+              There are two major approaches in machine learning.
               In <strong className="text-text-primary">supervised learning</strong>, you give the model
               both the data and the correct answers. The model learns to predict answers for new data.
             </p>

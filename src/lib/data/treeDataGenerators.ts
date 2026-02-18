@@ -165,7 +165,7 @@ export function makeMoonsClassification(
   return points
 }
 
-/** Spiral data — stress test for all models */
+/** Spiral data - stress test for all models */
 export function makeSpiralsClassification(
   n: number,
   noise = 0.2,

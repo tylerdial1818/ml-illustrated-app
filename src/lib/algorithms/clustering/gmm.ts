@@ -92,7 +92,7 @@ export function runGMM(
       }
 
       if (Nc < 1e-10) {
-        // Component has effectively died — reinitialise it to a random point
+        // Component has effectively died - reinitialise it to a random point
         const ri = Math.floor(rng() * n)
         means[c] = { ...data[ri] }
         covariances[c] = identity2x2()

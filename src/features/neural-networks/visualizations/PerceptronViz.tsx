@@ -284,7 +284,7 @@ export function PerceptronViz() {
 
       {/* Dual panel */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        {/* Left — Neuron diagram */}
+        {/* Left: Neuron diagram */}
         <div className="bg-obsidian-surface/40 rounded-xl border border-obsidian-border p-4">
           <p className="text-[10px] uppercase tracking-wider text-text-tertiary mb-2">
             Neuron Anatomy
@@ -314,7 +314,7 @@ export function PerceptronViz() {
           </div>
         </div>
 
-        {/* Right — Decision boundary scatter plot */}
+        {/* Right: Decision boundary scatter plot */}
         <div>
           <SVGContainer
             aspectRatio={1}
@@ -464,7 +464,7 @@ export function PerceptronViz() {
       {/* XOR warning */}
       {useXOR && (
         <div className="mt-3 px-4 py-2 bg-error/10 border border-error/20 rounded-lg text-xs text-error">
-          A single perceptron cannot solve XOR — the data is not linearly separable. Watch the boundary oscillate without converging.
+          A single perceptron cannot solve XOR. The data is not linearly separable. Watch the boundary oscillate without converging.
         </div>
       )}
 

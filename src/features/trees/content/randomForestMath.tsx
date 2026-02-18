@@ -11,7 +11,7 @@ export function RandomForestMath() {
       <div>
         <p className="text-sm font-medium text-text-primary mb-2">Bootstrap Aggregating (Bagging)</p>
         <p className="text-sm text-text-secondary mb-3">
-          Each tree is trained on a bootstrap sample — a random sample of size n drawn with replacement:
+          Each tree is trained on a bootstrap sample, a random sample of size n drawn with replacement:
         </p>
         <div className="bg-obsidian-surface rounded-lg p-4 text-center">
           <Eq tex="D_b = \{(x_i, y_i)\}_{i=1}^{n}, \quad x_i \sim \text{Uniform}(D)" display />
@@ -32,7 +32,7 @@ export function RandomForestMath() {
         </div>
         <p className="mt-2 text-xs text-text-tertiary">
           <Eq tex="p" /> is the total number of features. By limiting each split to <Eq tex="m" /> random
-          features, trees are forced to be different from one another — this decorrelation is what makes
+          features, trees are forced to be different from one another. This decorrelation is what makes
           the ensemble stronger than any individual tree.
         </p>
       </div>
@@ -58,7 +58,7 @@ export function RandomForestMath() {
         <p>
           <Eq tex="h_b(x)" /> is the prediction of tree <Eq tex="b" />. The variance of the ensemble
           prediction decreases roughly as <Eq tex="1/B" />, which is why more trees almost always
-          help — unlike a single decision tree, a Random Forest rarely overfits by adding more trees.
+          help. Unlike a single decision tree, a Random Forest rarely overfits by adding more trees.
         </p>
       </div>
     </div>

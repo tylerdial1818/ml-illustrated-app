@@ -12,7 +12,7 @@ export function LogisticRegressionSection() {
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">
             Linear regression predicts a number. Logistic regression predicts a{' '}
-            <strong className="text-text-primary">probability</strong> — it squishes the output through an
+            <strong className="text-text-primary">probability</strong>. It squishes the output through an
             S-curve (sigmoid) so predictions always land between 0 and 1. The decision boundary is where the
             probability crosses your chosen threshold.
           </p>

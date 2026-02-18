@@ -7,7 +7,7 @@ export function CNNSection() {
     <ModelSection
       id="cnn"
       title="Convolutional Neural Network (CNN)"
-      subtitle="Slide small filters across an image to detect patterns — edges, textures, shapes — then combine them into recognition."
+      subtitle="Slide small filters across an image to detect patterns (edges, textures, shapes) then combine them into recognition."
       intuition={
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">

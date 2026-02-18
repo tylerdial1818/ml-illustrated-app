@@ -87,7 +87,7 @@ export function NNOverview() {
           {[
             {
               name: 'Perceptron',
-              desc: 'One neuron, one decision boundary — the building block of it all.',
+              desc: 'One neuron, one decision boundary. The building block of it all.',
               color: COLORS.clusters[0],
             },
             {
@@ -107,7 +107,7 @@ export function NNOverview() {
             },
             {
               name: 'Autoencoder',
-              desc: 'Compress data into a bottleneck and reconstruct it — learning efficient representations.',
+              desc: 'Compress data into a bottleneck and reconstruct it, learning efficient representations.',
               color: COLORS.clusters[4],
             },
             {

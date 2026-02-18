@@ -76,14 +76,14 @@ export function runDBSCAN(
     snap(i, { center: i, neighbors: neighbours }, 'classifying')
 
     if (neighbours.length < minPts) {
-      // Not enough neighbours — tentatively mark as noise.
+      // Not enough neighbours - tentatively mark as noise.
       // It may later be reclassified as a border point.
       classifications[i] = 'noise'
       snap(i, null, 'classifying')
       continue
     }
 
-    // This is a core point — start a new cluster
+    // This is a core point - start a new cluster
     currentClusterId++
     classifications[i] = 'core'
     clusterAssignments[i] = currentClusterId
@@ -117,7 +117,7 @@ export function runDBSCAN(
       snap(j, { center: j, neighbors: jNeighbours }, 'expanding')
 
       if (jNeighbours.length >= minPts) {
-        // j is also a core point — add its neighbours to the queue
+        // j is also a core point - add its neighbours to the queue
         classifications[j] = 'core'
         for (const nb of jNeighbours) {
           if (!inQueue.has(nb)) {

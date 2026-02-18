@@ -12,14 +12,14 @@ export function RandomForestSection() {
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">
             <strong className="text-text-primary">One tree is smart but unreliable.</strong> Imagine asking
-            a single expert for a diagnosis — they might be brilliant but also biased by their experience.
+            a single expert for a diagnosis. They might be brilliant but also biased by their experience.
             Now imagine asking 100 experts, each trained on slightly different cases and looking at
             different symptoms. Their majority vote will almost always be better than any individual.
           </p>
           <p className="mt-3 text-text-secondary leading-relaxed">
             That's the wisdom-of-crowds principle behind Random Forests. Each tree sees a random
             bootstrap sample of the data and can only consider a random subset of features at
-            each split. This forced diversity means individual trees make different mistakes —
+            each split. This forced diversity means individual trees make different mistakes,
             and those mistakes cancel out when you aggregate.
           </p>
         </div>
@@ -32,7 +32,7 @@ export function RandomForestSection() {
             <div>
               <h5 className="text-sm font-medium text-success mb-2">Strengths</h5>
               <ul className="space-y-2 text-sm text-text-secondary">
-                <li>Excellent "strong baseline" — works well out of the box</li>
+                <li>Excellent "strong baseline" that works well out of the box</li>
                 <li>Handles high-dimensional data with many features</li>
                 <li>Robust to outliers and noisy features</li>
                 <li>Built-in feature importance estimation</li>

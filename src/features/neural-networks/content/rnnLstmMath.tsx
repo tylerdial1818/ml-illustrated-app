@@ -35,10 +35,10 @@ export function RNNLSTMMath() {
 
       <div className="text-sm text-text-tertiary border-l-2 border-obsidian-border pl-4">
         <p>
-          <Eq tex="f_t" /> is the forget gate — it decides what to erase from memory.{' '}
-          <Eq tex="i_t" /> is the input gate — it decides what new information to store.{' '}
-          <Eq tex="C_t" /> is the cell state — the long-term memory conveyor belt.{' '}
-          <Eq tex="o_t" /> is the output gate — it decides what part of the cell state to expose.
+          <Eq tex="f_t" /> is the forget gate. It decides what to erase from memory.{' '}
+          <Eq tex="i_t" /> is the input gate. It decides what new information to store.{' '}
+          <Eq tex="C_t" /> is the cell state, the long-term memory conveyor belt.{' '}
+          <Eq tex="o_t" /> is the output gate. It decides what part of the cell state to expose.
           The <Eq tex="\odot" /> symbol means element-wise multiplication. Together, these gates
           let the LSTM selectively remember and forget across long sequences.
         </p>

@@ -27,7 +27,7 @@ export function RegressionPage() {
         <div className="pt-12 lg:pt-16 pb-10">
           <h1 className="text-4xl lg:text-5xl font-bold text-text-primary">Regression</h1>
           <p className="mt-4 text-lg text-text-secondary max-w-2xl leading-relaxed">
-            Drawing the best line through data — predicting continuous outcomes by minimizing
+            Drawing the best line through data. Predict continuous outcomes by minimizing
             error with increasing sophistication.
           </p>
         </div>

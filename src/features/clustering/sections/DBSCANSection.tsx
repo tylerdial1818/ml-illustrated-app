@@ -16,7 +16,7 @@ export function DBSCANSection() {
           </p>
           <p className="mt-3 text-text-secondary leading-relaxed">
             Unlike K-Means, DBSCAN doesn't need you to specify the number of clusters. It discovers them
-            automatically based on density — and it can find clusters of any shape, not just spheres.
+            automatically based on density, and it can find clusters of any shape, not just spheres.
           </p>
         </div>
       }

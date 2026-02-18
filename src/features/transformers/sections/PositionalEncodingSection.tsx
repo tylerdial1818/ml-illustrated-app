@@ -49,7 +49,7 @@ export function PositionalEncodingSection() {
               <h5 className="text-sm font-medium text-error mb-2">Limitations</h5>
               <ul className="space-y-2 text-sm text-text-secondary">
                 <li>Learned embeddings are capped at a fixed maximum sequence length</li>
-                <li>Sinusoidal patterns can be harder for the model to leverage than learned ones</li>
+                <li>Sinusoidal patterns can be harder for the model to use than learned ones</li>
                 <li>Long sequences still challenge all position encoding schemes</li>
                 <li>Adds no learnable parameters in the sinusoidal case</li>
               </ul>

@@ -7,12 +7,12 @@ export function LassoSection() {
     <ModelSection
       id="lasso"
       title="Lasso Regression (L1)"
-      subtitle="Shrink some coefficients all the way to zero — automatic feature selection."
+      subtitle="Shrink some coefficients all the way to zero for automatic feature selection."
       intuition={
         <div className="max-w-2xl">
           <p className="text-text-secondary leading-relaxed">
             Like Ridge, but with a <strong className="text-text-primary">sharper penalty</strong>. Lasso
-            doesn't just shrink coefficients — it drives some of them all the way to zero, effectively
+            doesn't just shrink coefficients. It drives some of them all the way to zero, effectively
             selecting which features matter. It's regression + automatic feature selection.
           </p>
           <p className="mt-3 text-text-secondary leading-relaxed">
