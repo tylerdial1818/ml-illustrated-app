@@ -40,7 +40,7 @@ export function FeatureScalingMath() {
 
       <div className="text-sm text-text-tertiary border-l-2 border-obsidian-border pl-4">
         <p>
-          Min-Max squeezes values into <Eq tex="[0, 1]" />. Standardization centers at 0 with unit variance.
+          Min-Max squeezes values into <Eq tex="[0, 1]" />. Standardization centers at 0 with a std dev of 1 (most data ranges between -3 to 3).
           Robust uses the median and interquartile range, which are not affected by extreme outliers.
           Most models (especially gradient-based ones like neural networks) benefit from scaling.
           Tree-based models are an exception since they only care about the order of values, not their magnitude.

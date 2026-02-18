@@ -14,10 +14,10 @@ export function FeatureScalingSection() {
             Imagine predicting house prices using two features: square footage (ranges from 500 to
             5,000) and number of bedrooms (ranges from 1 to 6). Without scaling, the model treats a
             1-unit change in square footage the same as a 1-unit change in bedrooms. But going from
-            1,000 to 1,001 square feet is negligible, while going from 2 to 3 bedrooms is significant.
+            1,000 to 1,001 square feet is not nearly as significant as going from 2 to 3 bedrooms.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            Worse, gradient descent takes uneven steps. It makes big updates for the feature with the
+            Gradient descent also takes uneven steps. It makes big updates for the feature with the
             large range and tiny updates for the one with the small range. The optimization path
             zigzags instead of heading straight for the minimum. Scaling both features to similar
             ranges fixes this.

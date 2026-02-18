@@ -13,8 +13,8 @@ export function LossFunctionsSection() {
           <p className="text-text-secondary leading-relaxed">
             Imagine you are throwing darts at a target. You need a way to measure how badly you
             are missing. That is what a loss function does for a model. It takes the model's
-            predictions, compares them to the actual answers, and produces a single number:
-            the <strong className="text-text-primary">loss</strong>. A lower loss means the model
+            predictions, compares them to the actual answers, and produces
+            the <strong className="text-text-primary">loss</strong> metric. A lower loss means the model
             is doing better.
           </p>
           <p className="text-text-secondary leading-relaxed">

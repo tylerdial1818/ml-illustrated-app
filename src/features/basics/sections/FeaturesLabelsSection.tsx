@@ -20,7 +20,7 @@ export function FeaturesLabelsSection() {
           </p>
           <p className="text-text-secondary leading-relaxed">
             Features are the inputs. The label is the output. A dataset is the full collection of
-            examples. That is the entire vocabulary you need to understand every model on this site.
+            examples. That is the main vocabulary you need to understand every model on this site.
           </p>
         </div>
       }
